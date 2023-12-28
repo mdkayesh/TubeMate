@@ -9,6 +9,14 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    @apply w-3 bg-bg_secondary rounded-lg h-2
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-gray-700 rounded-lg
+}
+
 body {
     @apply bg-bg_primary text-text_color text-base
 }

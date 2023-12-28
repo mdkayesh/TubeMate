@@ -1,5 +1,9 @@
 <template>
   <section class="py-10 container">
+    <h1 class="font-semibold text-4xl">
+      Search Results for
+      <span class="text-gradient">{{ props.searchTerms }}</span> videos
+    </h1>
     <div
       class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 xl:gap-6 mt-10"
     >
